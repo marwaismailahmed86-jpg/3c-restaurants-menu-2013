@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 3c Restaurant Menu</title>
+    <style>
+                body{
+            background-color: black;
+            background-image: url("burger king.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+            
+            
+        }
+        header{
+            background-color: white;
+            background: linear-gradient(to 
+             top right
+             , white , red ,orange  ) ;
+             border-radius: 10px;
+            
+   
+
+        }
+        h1{
+            text-align: center;
+            font-weight: bolder;
+        }
+        a:link{
+            text-decoration: none;
+            color: blue;
+
+        }
+        a:hover{
+            color: purple;
+            border: 3px solid white;
+            border-radius: 100px;
+            padding: 10px;
+            background-color: white;
+            opacity: 0.2;
+        }
+        a:active{
+            opacity: 0.5;
+        }
+        .item1 .item2{
+            text-align: left;
+        }
+        .item1{
+            margin-right: 10px;
+        }
+        .item3 .item4{
+            text-align: right;
+        }
+        .item3{
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+        button{
+            text-align: right;
+            padding: 8px;
+            margin: 15px;
+            border-radius: 10px;
+            border: rgb(218, 83, 83);
+            color: rgb(218, 83, 83);
+        }
+        #a{
+            border: white;
+            border-radius: 10px;
+            text-align: center;
+            margin-left: 800px;
+
+        }
+
+        img {
+            width: 300px;
+        }
+        p{
+            text-align: center;
+        }
+    </style>
+
+
+
+<script>
+const country = document.getElementById("country");
+const message = document.getElementById("countryMessage");
+
+country.addEventListener("change", function () {
+
+    if (this.value === "") {
+        message.innerHTML = "";
+    } else {
+        message.innerHTML = "🍔 Welcome to Burger King " + this.value + "!";
+    }
+
+});
+</script>
+</head>
+<body>
+    <header id="section1">
+        
+        <h1> 3c Restarants</h1>
+
+
+
+
+
+
+
+
+
+
+        <div style="text-align:center; margin:20px;">
+    <label for="country"><strong>Select Your Country:</strong></label>
+
+    <select id="country">
+        <option value="">-- Choose Country --</option>
+        <option value="Egypt">Egypt</option>
+        <option value="Saudi Arabia">Saudi Arabia</option>
+        <option value="United Arab Emirates">United Arab Emirates</option>
+        <option value="Jordan">Jordan</option>
+        <option value="Kuwait">Kuwait</option>
+        <option value="Qatar">Qatar</option>
+        <option value="United States">United States</option>
+        <option value="United Kingdom">United Kingdom</option>
+    </select>
+
+    <p id="countryMessage" style="color:white;font-size:20px;"></p>
+</div>
+
+
+
+
+
+        <h2 style="text-align: center;"><a class="item1" href="#section1">Home</a>
+        <a class="item2" href="#Menu">Menu</a><a class="item3" href="#Drinks">Drinks</a>
+        <a  class="item4" target="_blank
+Ali Muhammad Fathi
+
+UPCOMING
+Mid.AR.1.Photoshop ✨
+ONLINE • Thu, Jul 9pois=38.8707389831543_-9">location</a>
+        <a href="#Contact" class="item4">Contact Us</a>
+        <a href="#New" class="item4">Try our New Food</a>
+        <form  style="text-align: center;">
+         <h4>Do have an acount ?</h4>  
+        <button><a href="login.html">sigh up</a></button>
+        <button><a href="login.html">login</a></button>
+    </form>
+</h2>
+    
+   
+
+
+    </header>
+
+    <section id="Menu">
+        <h1 style="color: crimson;">Menu</h1>
+        <br>
+        <h2 style="text-align: center ; color: darkgray;">Burgers</h2>
+        <img id="a" src="download.webp" alt="">
+        <h2 style="text-align : center;">Beaf Burger..........
+            ........<span style="font-size: smaller; text-align: center;" >Price $10.38</span></h2>
+        <br><br>
+        <img id="a" src="ghh.webp" alt="">
+        <h2 style="text-align : center;"> spicy Beaf Burger..........
+            ...
+            .....<span
+             style="font-size: 
+             smaller; text-align: center;">Price $15.45</span></h2>
+             <hr><hr><hr>
+                                <h2 style="text-align: center; color: darkgray;">Pizza</h2>
+                                <br><br>
+        <img id="a" src="jkh.webp" alt="">
+        <h2 style="text-align : center;">Plain Pizza..........
+            ........<span style="font-size: smaller; text-align: center;" >Price $10</span></h2>
+        <br><br>
+        <img id="a" src="km.webp" alt="">
+        <h2 style="text-align : center;">Vegtable Pizza..........
+            ...
+            .....<span
+             style="font-size: 
+             smaller; text-align: center;">Price $17.89</span></h2>
+                                                        <br><br>
+        <img id="a" src="download (1).webp" alt="">
+        <h2 style="text-align : center;">Pep Pizza..........
+            ...
+            .....<span
+             style="font-size: 
+             smaller; text-align: center;">Price $19.89</span></h2>
+
+
+
+
+    </section>
+
+    <hr><hr><hr>
+        <section id="Drinks">
+        <h1 style="color: crimson;">Menu</h1>
+        <br>
+        <h2 style="text-align: center ; color: darkgray;">Drinks</h2>
+        <img id="a" src="rg.webp" alt="">
+        <h2 style="text-align : center;"><span style="color: blue;">Pepsi</span>..........
+            ........<span style="font-size: smaller; text-align: center;" >Price $8.76</span></h2>
+        <br><br>
+        <img id="a" src="v.webp" alt="">
+        <h2 style="text-align : center;"><span style="color: orangered;">Fanta</span>..........
+            ...
+            .....<span
+             style="font-size: 
+             smaller; text-align: center;">Price $9.67</span></h2>
+                                <br>
+        <img id="a" src="bc.webp" alt="">
+        <h2 style="text-align : center;"><span style="color: green;">Sprite</span>..........
+            ........<span style="font-size: smaller; text-align: center;" >Price $10.32</span></h2>
+        <br><br>
+        <img id="a" src="fb.webp" alt="">
+        <h2 style="text-align : center;"><span style="color: red">CoCa Cola</span>..........
+            ...
+            .....<span
+             style="font-size: 
+             smaller; text-align: center;">Price $11.98</span></h2>
+                <br><br>
+    </section>
+
+    <hr><hr><hr>
+    <section id="New">
+        <p>Try our New Burgers</p>
+        <img   id="a" src="jj.webp" alt="">
+        <h1>X-Large Beaf Burgers <span style="font-size: smaller;">................ Price $20.65</span>
+        </h1>
+        <br><br><br><br>
+        <p>Try the kings Meal Deal</p>
+        <img  id="a" src="iukkj.webp" alt="">
+        <h1>Kings Meal Deal<span style="font-size: smaller;">................ Price $5.99</span>
+            <br><br><br><br>
+            <p>Try our New collections</p>
+            <img  src="gyhfj.webp" alt="">
+            <h1>Price $10.99</h1>
+    </section>
+
+    <section id="Contact">
+        <P>Thank You for using Burger king Restarants website ...................... <br> and please don't forget to Visit us <br>or Contac
+            t us *<span style="color: red;">179654</span> to  <br>and With our best Regardes <span style="color: orangered;">Burger King Rest
+                arants</span></P>
+    </section>
+    <script>
+// Welcome message
+window.onload = function () {
+    alert("🍔 Welcome to Burger King Restaurants!");
+};
+
+// Smooth scrolling
+document.querySelectorAll('a[href^="#"]').forEach(link => {
+    link.addEventListener("click", function(e) {
+        e.preventDefault();
+
+        const target = document.querySelector(this.getAttribute("href"));
+
+        if(target){
+            target.scrollIntoView({
+                behavior: "smooth"
+            });
+        }
+    });
+});
+
+// Highlight selected navigation link
+const links = document.querySelectorAll("header a");
+
+links.forEach(link=>{
+    link.addEventListener("click",function(){
+
+        links.forEach(a=>a.style.color="blue");
+
+        this.style.color="yellow";
+    });
+});
+
+// Confirm before opening Login page
+document.querySelectorAll('a[href="login.html"]').forEach(button=>{
+    button.addEventListener("click",function(e){
+
+        let answer = confirm("Do you want to go to the Login page?");
+
+        if(!answer){
+            e.preventDefault();
+        }
+
+    });
+});
+
+// Create Back To Top button
+let topBtn = document.createElement("button");
+
+topBtn.innerHTML="⬆ Top";
+
+topBtn.style.position="fixed";
+topBtn.style.bottom="20px";
+topBtn.style.right="20px";
+topBtn.style.padding="10px";
+topBtn.style.display="none";
+topBtn.style.cursor="pointer";
+topBtn.style.borderRadius="10px";
+
+document.body.appendChild(topBtn);
+
+// Show button while scrolling
+window.addEventListener("scroll",function(){
+
+    if(window.scrollY>300){
+        topBtn.style.display="block";
+    }else{
+        topBtn.style.display="none";
+    }
+
+});
+
+// Back to top
+topBtn.onclick=function(){
+
+    window.scrollTo({
+        top:0,
+        behavior:"smooth"
+    });
+
+};
+
+// Current date and time
+let clock=document.createElement("h3");
+
+clock.style.color="white";
+clock.style.textAlign="center";
+
+document.body.insertBefore(clock,document.body.firstChild);
+
+setInterval(function(){
+
+    let now=new Date();
+
+    clock.innerHTML=now.toLocaleString();
+
+},1000);
+
+// Contact section message
+const contact=document.getElementById("Contact");
+
+window.addEventListener("scroll",function(){
+
+    let position=contact.getBoundingClientRect();
+
+    if(position.top<250){
+
+        console.log("Thank you for visiting Burger King!");
+
+    }
+
+});
+</script>
+</body>
+
+
